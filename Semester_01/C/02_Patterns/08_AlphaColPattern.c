@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    int i , j ,n;
+    printf("Enter the number of rows :");
+    scanf("%d",&n);
+    printf("The Pattern \n");
+    for (i = 1 ; i <= n ; i++){
+        char ch = 'A';
+        for (j = 1 ; j <= i ; j++){
+            printf("%c",ch);
+            ch += 2;
+        }printf("\n");
+    }return 0;
+}
